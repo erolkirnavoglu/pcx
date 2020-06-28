@@ -16,6 +16,9 @@ namespace WebApplication11.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+
+
+
         }
 
         public IActionResult Index()
